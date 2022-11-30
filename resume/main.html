@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蕭鈞永的個人履歷</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #background{
+            width: 100%;
+            height: 2000px;
+            background-color: rgb(29, 125, 125);
+            position: fixed;
+            z-index: -1;
+        }
+        header{
+            width:60%;height: 600px;
+            background-color: rgb(187, 233, 233);
+            clear: both;
+            float: left;
+            text-align: center;
+        }
+        main{
+            width: 80%;height:1000px;
+            background-color: rgb(215, 242, 242);
+            float: left;
+            clear: both;
+            font-family:sans-serif;
+        }
+        aside{
+            width: 20%;height: 300px;
+            background-color: #000;
+            float: left;
+            clear: both;
+        }
+        footer{
+            width: 100%;height: 300px;
+            background-color: rgb(137, 153, 153);
+            clear: both;
+        }
+        a{
+            text-decoration: none;
+            color: #040;
+        }
+        #pageLink{
+            background-color: rgb(255, 200, 55);
+            color: #040;
+            width: 30%;
+            height: 5%;
+            position: fixed;
+            float: right;
+            right: 3%;
+            z-index:5;
+            text-align: center;
+            border-radius: 0% 0% 10px 10px;
+        }
+        [href]:hover{
+            color: #BBB;
+        }
+        .anchor{
+            width: 10px;
+            float: left;
+        }
+        .experience{
+            margin-left: 30%;
+            margin-bottom: 2%;
+            margin-top: 1%;
+            font-size: 25px;
+        }
+        .mainText{
+            margin-left: 28%;
+            font-size: 30px;
+        }
+        .mainImg{
+            width: 15%;
+            height: 20%;
+            line-height: 20%;
+            float: right;
+            margin:10% 15% 0px 0px;
+            background-color: rgb(187, 233, 233);
+            background-blend-mode:multiply;
+            border-radius: 10px;
+            
+        }
+        .imgInMain{
+            width: 40px;
+            margin-left:8% ;
+            margin-top:3% ;
+            filter: grayscale(100%);
+            
+        }
+        .imgInMain:hover{
+            filter:none;
+        }
+        #github:hover{
+            filter: invert(100%);
+        }
+        #mainHead{
+            width:100%;
+            height:25%;
+            float: left;
+            background-image:url(image/mainHeadBG2.JPG);
+            background-size:100%;
+            background-color: rgba(18, 116, 116, 0.5);
+            background-blend-mode: multiply;
+            color: #DDD;
+        }
+        #mainBody{
+            width:100%;
+            height: 75%;
+            float: left;
+        }
+        .vline{
+            width: 0px;
+            border-left: 1px solid #000;
+            position: absolute;
+        }
+        .mainBodyImg{
+            width: 7%;
+            margin: 3%;
+        }
+        .yearShow{
+            position: absolute;
+            right:15%;
+            margin-bottom: 2%;
+        }
+        li{
+            margin-bottom: 2%;
+        }
+        .linkTitle{
+            width: 50%;
+            color: aliceblue;
+            text-align:center;
+            margin-left: 25%;
+            margin-top:5%;
+            font-size: xx-large;
+            font-weight:bold;
+            background-color: rgb(29, 125, 125);
+            border-radius: 10px;
+            
+        }
+        .mainText2{
+            width: 80%;
+            margin: 5% 10%;
+            font-size: x-large;
+            
+        }
+        .experienceText{
+            margin-top: 5%;
+            
+        }
+        dd{
+            padding: 10px;
+        }
+        .arrow{
+            width:5%;
+            float: right;
+            clear: both;
+            position: absolute;
+            right: 5%
+        }
+        .portfolioImgBox{
+            width:300px;
+            height:200px;
+            overflow: hidden;
+            display: inline-block;
+        }
+        .portfolio{
+            width:100%;
+            overflow: hidden;
+            display: inline-block;
+        }
+        .portfolioBox{
+            width:30%;
+            display:inline-block;
+            margin: 1%;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="background"></div>
+    <div id="pageLink" style="font-size:x-large">
+        <a href="#Menu">回主頁/</a>
+        <a href="#關於我">關於我/</a>
+        <a href="#經歷">個人經歷/</a>
+        <a href="#作品">作品集/</a>
+        <a href="#email">Email</a>
+    </div>
+
+    <a name="Menu" class="anchor"></a>
+    <header style="margin:5% 20% 0px 20% ;">
+        
+        <p style="font-size: 70px;margin:25% 0px 0px 0px;">蕭鈞永的個人履歷</p>
+        <p style="font-size: 20px;display:block;" class="justfy">Jun Yong's curriculum vitae</p>
+    </header>
+
+    
+    
+   
+    
+    
+    <main style="margin:10% 10% 0px 10%;">
+        <a name="關於我" class="anchor"></a>
+        <div id="mainHead">
+            <img src="image/大頭照.png" style="width:20%;float: left;margin-top: 6%;margin-left:5%;border-radius: 50px; ">
+            
+            <div class="mainImg">
+                <a href="mailto:john1234567891331@gmail.com"><img src="image/email.png" alt="email to JunYong" title="email to me" class="imgInMain"></a>
+                <a href=".."><img src="image/fb.png" alt="JunYong's fb" title="my fb" class="imgInMain"></a>
+                <a href="https://github.com/JunYong112y20m18"><img src="image/githubInves.png" alt="JunYong's github" title="my github" class="imgInMain" id="github"></a>
+            </div>
+            <p style="font-size:50px; margin: 12% 0px 0px 30%;"><b>蕭鈞永</b></p>
+            <a href="#Menu"><img src="image/arrowUp.png" alt="arrowUp" class="arrow"></a>
+                
+            
+        </div>
+        <hr style="clear: both;">
+        <div id="mainBody">
+            <div class="experience">
+                <strong>
+                    <p>就讀於實踐大學 資訊管理學系</p>
+                    <p>畢業於鳳新高中</p>
+                </strong>
+            </div>
+            
+            <div class="mainText">
+                <p>學習不同的程式語言，以成為軟體工程師作為目標而努力</p>
+                <p>持續學習、精進自身，是我邁向目標的方法</p>
+             </div>
+            <div class="vline" style=" height: 70%;left: 15%;margin-top:2% "></div>
+            <div class="mainText" style="margin-left:7%;margin-top: 2%;">
+                <p>所學語言-</p>
+                <img src="image/pythonLogo.png" alt="pythonLogo" class="mainBodyImg">
+                <img src="image/cppLogo.png" alt="cppLogo" class="mainBodyImg">
+                <img src="image/htmlLogo.png" alt="htmlLogo" class="mainBodyImg">
+                <img src="image/cssLogo.png" alt="cssLogo" class="mainBodyImg">
+                <img src="image/jsLogo.png" alt="jsLogo" class="mainBodyImg">
+                <img src="image/csLogo.png" alt="csLogo" class="mainBodyImg">
+                <img src="image/mySqlLogo.png" alt="mySqlLogo" class="mainBodyImg">
+                <a href="#經歷"><img src="image/arrowDown.png" alt="arrowDown" class="arrow"></a>
+                <p>特殊表現-</p>
+                <ul style="margin-left:5%;margin-right: 10%;margin-top: 2%;">
+                    <li>大一上下學期書卷獎<span class="yearShow">-2022.09</span></li>
+                    <li>CPE大學程式設計檢定C級<span class="yearShow">-2022.10</span></li>
+                    <li>APCS大學程式設計先修檢測第二級<span class="yearShow">-2022.10</span></li>
+                    <li>IPAS資安工程師證照<span class="yearShow">-2022.12</span></li>
+                </ul>
+            </div>
+
+            
+        </div>
+    </main>
+    <main style="margin:0px 10% 0px 10%;height: 1500px;">
+        <a name="經歷" class="anchor"></a>
+        <p class="linkTitle">個人經歷</p>
+        <div class="mainText2">
+            <a href="#關於我"><img src="image/arrowUp.png" alt="arrowUp" style="width:5%; position: absolute;right: 5%;"></a>
+            <img src="image/experienceMap2.JPG" alt="JunYong's experienceMap" style="width:100%;margin-left: 0%;">
+            <div >
+                <a href="#作品"><img src="image/arrowDown.png" alt="arrowUp" class="arrow"></a>
+            </div>
+ 
+            <dl style="text-align:justify;" class="experienceText">
+                <dd><strong>[我的學習歷程]</strong></dd>
+                <div class="vline" style="height: 52%;margin-top:1%"></div>
+                <dd>曾以Python實作成績管理系統</dd>
+                <dd>後自學C++，並先後報考APCE以及CPE檢定</dd>
+                <dd>對寫網頁感到有興趣，便也自學網頁技術</dd>
+                <dd>多次練習實作網頁，這個履歷表便是給自己的考驗</dd>
+                <dd>堅持把事情做好，不怕困難，不畏挑戰</dd>
+                <dd>鑒於現今對資安的重視，而開始學習資安相關知識，並考取證照</dd>
+                <dd>我學習到的知識，源自於我對解決問題的執著</dd>
+                <dd>不斷的思考、學習、查找資料，是我成為工程師的不二法門</dd>
+            </dl>
+                           
+        </div>
+
+
+    </main>
+
+    <main style="margin:0px 10% 0px 10%;height: 800px;">
+        <a name="作品" class="anchor"></a>
+        <p class="linkTitle">作品集</p>
+        <div class="mainText2"></div>
+        
+        <div style="width: 100%;text-align: center;">
+            <div class="portfolioBox">
+                <div class="portfolioImgBox">
+                    <img src="image/pythonProject.jpg" alt="pythonProject" class="portfolio">
+                </div>
+                <h1 style="text-align:center;">成績管理系統</h1>
+                <dl style="text-align:left;margin-left:2%;margin-top: 5%;">
+                    <dd>包含:新增/刪除/修改/儲存</dd>
+                    <dd>可以用來管理學生的成績</dd>
+                </dl>
+            </div>
+            
+            <div class="portfolioBox">
+                <div class="portfolioImgBox">
+                    <img src="image/coffeeWeb.JPG" alt="coffeeWeb" class="portfolio">
+                </div>
+                <h1 style="text-align:center;">咖啡網站</h1>
+                <dl style="text-align:left;margin-left:2%;margin-top: 5%;">
+                    <dd>靜態網頁，能夠介紹公司，也能宣傳商品</dd>
+                    <dd>可以連結到蝦皮賣場，讓顧客從蝦皮下訂單</dd>
+                </dl>
+            </div>
+
+            <div class="portfolioBox">
+                <div class="portfolioImgBox">
+                    <img src="image/cppProject.jpg" alt="cppProject" class="portfolio">
+                </div>
+                <h1 style="text-align:center;">運氣與成功的關係</h1>
+                <dl style="text-align:left;margin-left:2%;margin-top: 5%;">
+                    <dd>透過網路上研究的設計以及參數</dd>
+                    <dd>並透過數據顯示，成功與否和運氣有很大的關係</dd>
+                </dl>
+            </div>
+
+        
+        </div>
+        <a href="#經歷"><img src="image/arrowUp.png" alt="arrowUp" style="width:5%; position: absolute;right: 5%;"></a>
+        <h1 style="text-align: center;margin-top: 15%;">Thanks for watch!</h1>
+    </main>
+
+    
+
+    
+
+    <footer>
+        <div class="mainImg" style="float:left;margin:8% 0px 5% 5%;width: 13%;">
+            <a href="mailto:john1234567891331@gmail.com"><img src="image/email.png" alt="email to JunYong" title="email to me" class="imgInMain"></a>
+            <a href=".."><img src="image/fb.png" alt="JunYong's fb" title="my fb" class="imgInMain"></a>
+            <a href="https://github.com/JunYong112y20m18"><img src="image/githubInves.png" alt="JunYong's github" title="my github" class="imgInMain" id="github"></a>
+        </div>
+    </footer>
+
+</body>
+</html>
